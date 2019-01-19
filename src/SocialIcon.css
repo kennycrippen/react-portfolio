@@ -1,0 +1,17 @@
+.social {
+  font-size: 22px;
+  max-width: 781px;
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: center;
+}
+.social a span {
+  margin: 0 8px;
+  transform: scale(1);
+  display: inline-block;
+  transition: all 100ms ease-in-out;
+}
+.social a span:hover {
+  transform: scale(1.6);
+  transition: all 100ms ease-in-out;
+}

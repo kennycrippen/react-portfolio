@@ -1,0 +1,20 @@
+#recentprojects {
+  max-width: 781px;
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: center;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  padding: 0 30px;
+}
+
+.project img {
+  border-radius: 50%;
+}

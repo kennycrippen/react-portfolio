@@ -1,0 +1,23 @@
+.kenny {
+  width: 261px;
+  height: 291px;
+  margin: -60px auto 55px auto;
+  position: relative;
+}
+
+.kenny img {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+}
+
+.kenny .kenny-color {
+  animation: fadeInOut 20s infinite ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0%   { opacity:0; }
+  50%  { opacity:1; }
+  100% { opacity:0; }
+}

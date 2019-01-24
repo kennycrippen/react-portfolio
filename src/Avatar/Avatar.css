@@ -1,8 +1,13 @@
 .kenny {
   width: 261px;
   height: 291px;
-  margin: -60px auto 55px auto;
+  margin: 0 auto 55px auto;
   position: relative;
+}
+@media screen and (min-width: 500px) {
+  .kenny {
+    margin: -60px auto 55px auto;
+  }
 }
 
 .kenny img {

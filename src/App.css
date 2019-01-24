@@ -17,9 +17,8 @@ p {
 
 p.hm-about, p.home-project-title, p {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 22px;
   font-family: "futura-pt",Helvetica,Arial,sans-serif;
-  padding: 0 30px;
 }
 
 a {

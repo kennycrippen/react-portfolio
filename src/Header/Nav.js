@@ -1,9 +1,10 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Nav = () => {
   return(
       <nav>
-        <a href="#recentprojects" id="workscroll">WORK</a>
+        <AnchorLink href="#recentprojects" id="workscroll">WORK</AnchorLink>
         <a href="/">BLOG</a>
       </nav>
   );

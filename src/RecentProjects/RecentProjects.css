@@ -1,5 +1,5 @@
 #recentprojects {
-  max-width: 781px;
+  max-width: 747px;
   margin: 0 auto;
   padding: 0 15px;
   text-align: center;
@@ -11,10 +11,25 @@
   justify-content: center;
 }
 
+@media screen and (min-width: 777px) {
+  #projects {
+    justify-content: flex-start;
+  }
+}
+
 .project {
   padding: 0 30px;
+  max-width: 189px;
+}
+
+.project a {
+  display: block;
 }
 
 .project img {
   border-radius: 50%;
+}
+
+.home-project-title {
+  margin: 5px auto 30px auto;
 }

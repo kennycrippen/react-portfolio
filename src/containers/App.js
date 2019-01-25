@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Header from './Header/Header';
-import Avatar from './Avatar/Avatar';
-import Blurb from './Blurb/Blurb';
-import SocialIcon from './SocialIcon/SocialIcon';
-import RecentProjects from './RecentProjects/RecentProjects';
+import Header from '../components/Header/Header';
+import Avatar from '../components/Avatar/Avatar';
+import Blurb from '../components/Blurb/Blurb';
+import SocialIcon from '../components/SocialIcon/SocialIcon';
+import RecentProjects from '../components/RecentProjects/RecentProjects';
 import './App.css';
 
 class App extends Component {

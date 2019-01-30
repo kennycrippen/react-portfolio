@@ -18,7 +18,7 @@ class RecentProjects extends Component {
       <div id="recentprojects">
         <h2>RECENT PROJECTS</h2>
         <div id="projects">
-          {this.state.projects.map((project, index) => {
+          {this.state.projects.map(project => {
             return(
               <div className="project" key={project.id}>
                 <a href={project.url}>

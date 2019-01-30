@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../components/Header/Header';
+import Main from '../components/Main/Main';
 import Avatar from '../components/Avatar/Avatar';
 import Blurb from '../components/Blurb/Blurb';
 import SocialIcon from '../components/SocialIcon/SocialIcon';
@@ -11,7 +12,7 @@ class App extends Component {
     return (
       <>
         <Header />
-        <main id="content">
+        <Main>
           <div className="about">
             <Avatar />
             <Blurb>
@@ -26,7 +27,7 @@ class App extends Component {
             </div>
           </div>
           <RecentProjects />
-        </main>
+        </Main>
         <div id="footer">
           <p>© Copyright 2018 Kenny Crippen.</p>
         </div>
